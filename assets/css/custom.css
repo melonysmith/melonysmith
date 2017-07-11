@@ -1,4 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Sacramento|Josefin+Slab:400,700|Source+Sans+Pro:400,700');
 body {
     background: #C7CAC9;
     color: #414247;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: 'Josefin Slab', serif;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: 'Josefin Slab', serif;
+    font-weight: 700;
+    color: #D8505C;
+}
+
+a {
+    color: #EE7E94;
+    text-decoration: none;
+    font-family: 'Sacramento', sans-serif;
+}
+
+a:hover {
+    color: #F8B4C4;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #414247;
+}
+
+button {
+    background: #414247;
+    font-size: 1.25em;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
 }
